@@ -1,0 +1,133 @@
+
+header {
+	text-align: center;
+	font-family: fantasy;
+	margin: 70px;
+	color: darkcyan;
+	background: #778899;
+	padding: 0.5px;
+}
+
+.text-block {margin-left: 20px;}
+
+
+body {
+	margin: 0;
+	height: 100%;
+	background: url();
+	background-size: cover;
+}
+
+footer {
+	margin-top: 50px;
+	color: balck;
+	text-align: center;
+}
+
+main {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: #f0ffff;
+}
+
+nav {
+	margin-top: 0px;
+	text-align: center;
+}
+
+content {
+	background: none;
+	margin-left: 130px;
+}
+
+caption {
+	margin-top: -60px;
+	font-size: 24px;
+}
+
+a {
+	width: 100px;
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+}
+
+li {
+	display: inline-block;
+	margin: 0;
+	padding: 15px 50px;
+	list-style-type: none;
+	width: 200px;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.d1 input {
+	width: 100%;
+	height: 42px;
+	padding-left: 10px;
+	border: 2px solid #7BA7AB;
+	border-radius: 5px;
+	outline: none;
+	background: #F9F0DA;
+	color: #9E9C9C;
+}
+/*.d1 button {
+	position: fixed;
+	top: 10;
+	right: 505px;
+	width: 42px;
+	height: 42px;
+	border: none;
+	background: #7BA7AB;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+.d1 button:before {
+	content: "\f505";
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #F9F0DA;
+} */
+
+.image {
+	text-align: center;
+	margin: 20px;
+}
+
+.text {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: Times, Times New Roman, Georgia, fantasy;
+}
+
+.text1 {
+	text-align: center;
+	font-family: Times, Times New Roman, Georgia, fantasy;
+}
+
+.cl-1 {
+	text-align: center;
+}
+
+#elastic {
+	display: inline-block;
+
+}
+
+.elastic li {
+	transition: all ease 500ms;
+}
+
+.elastic li.hide {
+	display: none;
+}
